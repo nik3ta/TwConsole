@@ -1,0 +1,14 @@
+name: TwConsole
+version: ${project.version}
+main: ru.twconsole.TwConsole
+api-version: 1.16
+authors: [You]
+commands:
+  console:
+    description: Управление отображением консоли в чате
+    usage: /console <on|off>
+    permission: twconsole.use
+permissions:
+  twconsole.use:
+    description: Позволяет видеть консоль сервера
+    default: op
